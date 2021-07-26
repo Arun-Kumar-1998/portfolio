@@ -5,7 +5,7 @@ import Title from '../Components/Title';
 import ServiceCard from '../Components/ServiceCard';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+
 
 function ServicesSection() {
     return (
@@ -16,20 +16,16 @@ function ServicesSection() {
                     <ServiceCard 
                         image={design} 
                         title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={'Figma designs '}
                     />
                     <div className="mid-card">
                         <ServiceCard 
                             image={intelligence} 
-                            title={'Artificial Intelligence'} 
-                            paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                            title={'WEB DEVELOPER'} 
+                            paragraph={'Developing  respnsive websites with the ReactJs '}
                         />
                     </div>
-                    <ServiceCard 
-                        image={gamedev} 
-                        title={'Game Development'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
-                    />
+                    
                 </div>
             </ServicesSectionStyled>
         </InnerLayout>

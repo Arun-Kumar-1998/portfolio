@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../img/avatar.jpg';
+import avatar from '../img/avatar.png';
 
 function Navigation() {
     return (
@@ -30,7 +30,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Lorem Ipsum</b></p>
+                <p>© 2021 <b>Arun Kumar</b></p>
             </footer>
         </NavigationStyled>
     )

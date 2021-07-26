@@ -27,25 +27,27 @@ function Skills() {
                             text={'85%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
-                            width={'60%'}
-                            text={'60%'}
+                            title={'BOOTSTRAP'}
+                            width={'100%'}
+                            text={'100%'}
                         />
-                        <ProgressBar 
-                            title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
-                        />
+                       
                         <ProgressBar 
                             title={'React JS'}
                             width={'75%'}
                             text={'75%'}
                         />
                         <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
+                            title={'MATERIAL-UI'}
+                            width={'100%'}
+                            text={'100%'}
                         />
+                        <ProgressBar 
+                            title={'Figma'}
+                            width={'35%'}
+                            text={'35%'}
+                        />
+                        
                     </div>
                 </InnerLayout>
         </SkillsStyled>

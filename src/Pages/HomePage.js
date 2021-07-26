@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import CallIcon from '@material-ui/icons/Call';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
+import EmailIcon from '@material-ui/icons/Email';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -12,21 +12,19 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hi, I'm <span>Arun kumar</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                   Web designer and Web developer producing some good work
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
+                    <a href="tel:9816894488" className="icon i-call">
+                        <CallIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
-                        <YoutubeIcon />
+                    <a href="https://mail.google.com/mail/u/0/#inbox" className="icon i-email">
+                        <EmailIcon />
                     </a>
                 </div>
             </div>
@@ -71,7 +69,7 @@ const HomePageStyled = styled.header`
                 }
             }
 
-            .i-youtube{
+            .i-email{
                 &:hover{
                     border: 2px solid red;
                     color: red;

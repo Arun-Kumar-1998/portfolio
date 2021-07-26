@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/resume.jpg';
+import resume from '../img/resume.png';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -10,12 +10,10 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>I am <span>Arun kumar</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
-                    
+                    Website developer and Website designer creating some good work 
+                   
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -27,15 +25,15 @@ function ImageSection() {
                         <p>Service</p>
                     </div>
                     <div className="info">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 36</p>
-                        <p>: Spainsh </p>
-                        <p>: Spanish, French, English </p>
-                        <p>: London, United Kingdom</p>
-                        <p>: Freelance</p>
+                        <p>: Arun kumar</p>
+                        <p>: 22</p>
+                        <p>: Indian</p>
+                        <p>: Hindi, English </p>
+                        <p>: Hamirpur,Himachal pradesh</p>
+                        <p>: Freelancer,fresher</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+                <PrimaryButton title={'Download Resume'} />
             </div>
         </ImageSectionStyled>
     )
